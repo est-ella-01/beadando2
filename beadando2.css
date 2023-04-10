@@ -1,0 +1,84 @@
+/*global*/ 
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+#qmark {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    background-color: mediumaquamarine;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+/*cards*/
+.cardholder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 500px) {
+
+    .cardholder {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }    
+}
+.card {
+    background-color: mediumaquamarine;
+    margin: 5px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    text-align: center;
+}
+
+/*newsletter*/
+.newsletter {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.newsletter > h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+#email, #felirakozas {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 5px;
+}
+#felirakozas {
+    border: 0;
+    border-radius: 3px;
+    background-color: mediumaquamarine;
+}
+.check {
+    display: flex;
+    align-items: start;
+}
+.feltetel {
+    margin: 0 5px 0 0;
+}
